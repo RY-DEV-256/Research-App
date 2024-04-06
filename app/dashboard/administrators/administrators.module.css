@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+}
+.topContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.topContent:first-child{
+    position: relative;
+}

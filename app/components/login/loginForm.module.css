@@ -1,0 +1,29 @@
+.container{
+    width: 350px;
+}
+.form{
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.form h5{
+    color: var(--text-soft);
+}
+.form label{
+    color: var(--text);
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+}

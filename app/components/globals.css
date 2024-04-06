@@ -1,0 +1,18 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+overflow: hidden;
+}
+
+:root{
+  --bg:#13274F;
+  --bg-soft:#2c3968;
+  --text:#FFFFFF;
+  --text-soft: rgba(205, 230, 234, 0.923);
+  --box-shadow1: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --box-shadow2: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-radius-s:5px;
+  --box-radius-b:10px;
+}

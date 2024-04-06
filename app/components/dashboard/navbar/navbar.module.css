@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    display: flex;
+    gap: 20px;
+}
+.menu{
+    display: none;
+    font-size: 25px;
+}
+.pathname{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.end{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.image{
+    border-radius: 50%;
+}
+.name{
+    font-size: 15px;
+    display: none;
+}
+
+/* medium screens */
+@media screen and (max-width:1200px) {
+  .pathname{
+    font-size: 17px;
+  }
+  .name, .logout{display: none;}
+  .logoutIcon{
+    font-size: 20px;
+  }
+ 
+}
+/* small screens  */
+@media screen and (max-width: 700px) {
+  .menu{
+    display: block;
+    cursor: pointer;
+  }
+  .pathname, .image, .name, .logout{
+    display: none;
+  }
+  .logoutIcon{
+    font-size: 20px;
+  }
+ 
+}

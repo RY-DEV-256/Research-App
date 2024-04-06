@@ -1,0 +1,12 @@
+@media screen and (max-width:1200px) {
+    .button{
+        font-size: 20px;
+    }
+    .text{
+        display: none;
+    }
+    .hide_md{
+        display: none;
+    }
+}
+
